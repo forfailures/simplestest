@@ -2,7 +2,7 @@
 
 pub struct Hello;
 
-/// The [Helo] project is a simple hello world program. It comes with two methods:
+/// The [Hello] project is a simple hello world program. It comes with two methods:
 ///
 /// 1. `hello` - This method takes a `String` and returns `Hello, {name}!`.
 /// 2. `hello_world` - A default method that returns `Hello, world!`.
@@ -19,7 +19,7 @@ impl Hello {
         format!("Hello,  {}!", name)
     }
 
-    pub fn  hello__world() -> &'static str {
+    pub fn hello_world() -> String {
         Hello::hello("wirld!".to_string())
     }
 }
