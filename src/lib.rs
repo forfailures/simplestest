@@ -30,6 +30,6 @@ mod tests {
 
     #[test]
     fn hello_world() {
-        assert_eq!("Hello, world!", Hello::hello__world());
+        assert_eq!("Hello, world!", Hello::hello_world());
     }
 }
